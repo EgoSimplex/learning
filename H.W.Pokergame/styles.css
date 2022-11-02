@@ -1,0 +1,226 @@
+/* ------------------------index page style-------------------------- */
+* {
+  box-sizing: border-box;
+}
+.firstPageH3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.firstPageP {
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid goldenrod;
+  padding: 10px;
+  margin-top: 0;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+#cardCombination {
+  display: block;
+  width: 800px;
+  margin: 2px auto;
+  border: 3px solid goldenrod;
+}
+/*-------------------------game page style------------------------*/
+#pokerTable {
+  background-color: rgb(1, 53, 1);
+  border-radius: 400px;
+  border: 30px solid rgb(89, 44, 0);
+  width: 1350px;
+  height: 700px;
+  margin: 80px auto;
+  position: absolute;
+  top: 85px;
+  left: 310px;
+}
+.containerCardsOfPlayer1,
+.containerCardsOfPlayer2 {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: rgb(233, 233, 233);
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  border: black solid;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.containerCardsOfPlayer1 {
+  position: absolute;
+  top: 600px;
+  left: 560px;
+}
+.containerCardsOfPlayer2 {
+  position: absolute;
+  top: 210px;
+  left: 560px;
+}
+.cardPlayer1 {
+  padding-left: 8px;
+}
+.cardPlayer2 {
+  transform: scale(-1);
+  padding-left: 8px;
+}
+.red {
+  color: red;
+}
+.playerName1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#playerName1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  border: 2px solid black;
+  background-color: goldenrod;
+  text-align: center;
+  width: 270px;
+  position: absolute;
+  top: 835px;
+  left: 850px;
+}
+#playerName2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  border: 2px solid black;
+  background-color: goldenrod;
+  text-align: center;
+  width: 270px;
+  position: absolute;
+  top: 165px;
+  left: 850px;
+}
+#winnerName {
+  position: absolute;
+  left: 640px;
+  top: 470px;
+  z-index: 11;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 200px;
+  border: 3px solid rgb(218, 165, 32);
+  width: 690px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.836);
+  color: rgb(218, 165, 32);
+}
+#redJeton1 {
+  position: absolute;
+  left: 1050px;
+  top: 513px;
+  width: 80px;
+  z-index: 10;
+}
+#redJeton2 {
+  position: absolute;
+  left: 1036px;
+  top: 510px;
+  width: 80px;
+  z-index: 10;
+}
+#redJeton3 {
+  position: absolute;
+  left: 850px;
+  top: 430px;
+  width: 80px;
+  z-index: 10;
+}
+#redJeton4 {
+  position: absolute;
+  left: 833px;
+  top: 435px;
+  width: 80px;
+  z-index: 10;
+}
+#blackJeton1 {
+  position: absolute;
+  width: 100px;
+  left: 900px;
+  top: 480px;
+  z-index: 10;
+}
+#blackJeton2 {
+  position: absolute;
+  width: 100px;
+  left: 990px;
+  top: 425px;
+  z-index: 10;
+}
+#pokerChair1 {
+  position: absolute;
+  width: 250px;
+  left: 860px;
+  top: 711px;
+  z-index: -1;
+}
+#pokerChair2 {
+  position: absolute;
+  transform: scale(-1);
+  width: 250px;
+  left: 860px;
+  top: 65px;
+  z-index: -1;
+}
+/*-------------------------score page style------------------------*/
+.scoreTable {
+  margin: 250px auto;
+  font-size: 70px;
+  border: 3px solid goldenrod;
+  width: 1200px;
+}
+.playerNames {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: goldenrod;
+  text-align: center;
+}
+.row1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(150, 2, 2);
+  text-align: center;
+}
+/*-------------------------all pages style-------------------------*/
+body {
+  background-color: rgb(14, 102, 3);
+}
+header {
+  position: sticky;
+  top: 0;
+}
+nav {
+  margin: 0;
+  border: solid 3px rgb(0, 0, 0);
+  background-color: goldenrod;
+  width: auto;
+  line-height: 25px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  margin-right: 10px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+a:visited {
+  color: black;
+}
