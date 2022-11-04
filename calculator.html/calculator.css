@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap");
+body {
+  background-color: rgb(114, 114, 114);
+}
+#calculator {
+  background-color: rgb(199, 199, 0);
+  border-radius: 20px;
+  border: 3px solid black;
+  width: 360px;
+  height: 540px;
+  margin: 100px auto;
+}
+.blockNumbers {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  width: 400px;
+  top: 100px;
+}
+.allB {
+  position: relative;
+  padding: 3.5px;
+}
+.numbers {
+  border-radius: 7px;
+  border: 3px solid black;
+  width: 55px;
+  background-color: #303030;
+  color: #e6e6e6;
+}
+.CE {
+  position: relative;
+  border: 3px solid black;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 100px;
+}
+.entities1 {
+  position: relative;
+  border: 3px solid black;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: #5d5d5d;
+  width: 55px;
+}
+.entities2 {
+  position: absolute;
+  border-radius: 100px;
+  border: 3px solid black;
+  height: 95px;
+  font-size: 50px;
+  background-color: #5d5d5d;
+  width: 60px;
+}
+.entities3 {
+  position: absolute;
+  background-color: rgb(93, 93, 93);
+  border-radius: 30px;
+  border: 3px solid black;
+  width: 180px;
+  font-size: 33px;
+  font-weight: bold;
+  left: 85px;
+  color: #000000;
+}
+.procent {
+  position: relative;
+  border: 3px solid black;
+  font-weight: bold;
+  background-color: #5d5d5d;
+  border-radius: 100px;
+  font-size: 30px;
+}
+.numberDisplay {
+  position: relative;
+  border: 3px solid gray;
+  border-radius: 10px;
+  background-color: #c2c2c2;
+  width: 320px;
+  margin: 0 auto;
+  height: 80px;
+  top: 40px;
+  text-align: right;
+  padding: 10px;
+  font-size: 75px;
+  font-family: "Saira Condensed", sans-serif;
+}
+td:hover {
+  background-color: rgb(219, 219, 219);
+  color: #303030;
+}
+/* .numbers {
+  background-color: rgb(43, 43, 43);
+  border-radius: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  width: 60px;
+  margin: 0 auto;
+  position: relative;
+} */
+/* .n1 {
+  position: relative;
+  left: -0px;
+} */ ;
